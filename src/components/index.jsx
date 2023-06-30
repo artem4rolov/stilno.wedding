@@ -7,3 +7,4 @@ export * from "./Presents/Presents";
 export * from "./Contacts/Contacts";
 export * from "./Timeout/Timeout";
 export * from "./BgWithGradient/BgWithGradient";
+export * from "./Gallery/Gallery";

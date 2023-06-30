@@ -44,14 +44,15 @@
   text-align: left;
   max-width: 800px;
 
-  margin-bottom: 10px;
-  padding-left: 10px;
+  margin-bottom: 30px;
+  padding-left: 15px;
 
   color: white;
-  border-left: 1px solid #ccca6f;
+  border-left: 2px solid #ccca6f;
 }
 
 .content__item-time {
+  font-size: 18px;
   font-weight: bold;
   text-align: left;
   width: 100%;

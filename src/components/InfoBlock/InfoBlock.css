@@ -16,10 +16,10 @@
   max-width: 800px;
   font-size: 18px;
   font-weight: lighter;
-  /* padding: 15px; */
+  padding-left: 15px;
   margin-bottom: 40px;
 
-  border-left: 1px solid #ccca6f;
+  border-left: 2px solid #ccca6f;
 }
 
 /* черные блоки */
@@ -58,7 +58,7 @@
   color: #fff;
   width: 50%;
 
-  border-bottom: 1px solid #ccca6f;
+  border-bottom: 2px solid #ccca6f;
   padding-bottom: 30px;
 }
 
@@ -74,7 +74,6 @@
 }
 
 .gallery__item {
-  /* width: 250px; */
   max-width: 250px;
   height: 500px;
   object-fit: cover;

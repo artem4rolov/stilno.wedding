@@ -5,6 +5,7 @@ import {
   Program,
   Location,
   DressCode,
+  Gallery,
   Presents,
   Contacts,
   Timeout,
@@ -17,10 +18,11 @@ function App() {
       <InfoBlock />
       <Program />
       <Location />
+      <Gallery />
       <DressCode />
       <Presents />
-      <Contacts />
-      <Timeout />
+      {/* <Contacts /> */}
+      {/* <Timeout /> */}
     </div>
   );
 }

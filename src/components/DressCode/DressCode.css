@@ -1,0 +1,40 @@
+.dresscode {
+  margin-top: 40px;
+  width: 100vw;
+  height: 100%;
+}
+
+/* обложка блока */
+.dresscode__bg {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.dresscode__bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* модальное окно с текстом */
+.dresscode__modal {
+  position: absolute;
+  z-index: 10;
+  width: 90%;
+  height: 90%;
+
+  max-width: 800px;
+  background: red;
+  color: black;
+  padding: 20px;
+}
