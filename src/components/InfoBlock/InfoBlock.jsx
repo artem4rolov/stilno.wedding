@@ -23,19 +23,19 @@ export const InfoBlock = () => {
       </div>
       {/* основные моменты */}
       <div className="infoblock__item">
-        <span className="item__title">КТО</span>
-        <p className="item__desc-bold">самые дорогие</p>
-        <p className="item__desc">друзья и близкие</p>
+        <span className="infoblock__item-title">КТО</span>
+        <p className="infoblock__item-desc-bold">самые дорогие</p>
+        <p className="infoblock__item-desc">друзья и близкие</p>
       </div>
       <div className="infoblock__item">
-        <span className="item__title">ГДЕ</span>
-        <p className="item__desc-bold">The ШАТЕР</p>
-        <p className="item__desc">(адрес)</p>
+        <span className="infoblock__item-title">ГДЕ</span>
+        <p className="infoblock__item-desc-bold">The ШАТЕР</p>
+        <p className="infoblock__item-desc">(адрес)</p>
       </div>
       <div className="infoblock__item">
-        <span className="item__title">КОГДА</span>
-        <p className="item__desc-bold">23 сентября 2023</p>
-        <p className="item__desc">суббота</p>
+        <span className="infoblock__item-title">КОГДА</span>
+        <p className="infoblock__item-desc-bold">23 сентября 2023</p>
+        <p className="infoblock__item-desc">суббота</p>
       </div>
       {/* галерея */}
       <div className="infoblock__gallery">
