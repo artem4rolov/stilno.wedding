@@ -1,4 +1,5 @@
 import "./App.css";
+import DressCodeColors from "./components/DressCodeColors/DressCodeColors";
 import {
   Main,
   InfoBlock,
@@ -20,9 +21,10 @@ function App() {
       <Location />
       <Gallery />
       <DressCode />
+      <DressCodeColors />
       <Presents />
-      {/* <Contacts /> */}
-      {/* <Timeout /> */}
+      <Contacts />
+      <Timeout />
     </div>
   );
 }

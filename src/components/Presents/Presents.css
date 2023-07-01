@@ -1,0 +1,71 @@
+.presents {
+  padding-top: 40px;
+  background: #000;
+
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presents__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 800px;
+}
+
+/* фотка */
+.presents__image {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* текст */
+.presents__content {
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 20px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+}
+
+.presents__content-title {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+  /* color: white; */
+}
+
+.presents__content-subtitle {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  /* color: white; */
+
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #000;
+}
