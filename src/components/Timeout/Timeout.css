@@ -1,0 +1,19 @@
+.timerComponent {
+
+}
+
+.eventName {
+
+}
+
+.timer {
+    width: 100%;
+    text-align: center;
+
+    border: solid black 1px;
+}
+
+.days {
+    background: red;
+    font-weight: bold;
+}

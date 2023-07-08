@@ -9,7 +9,8 @@ export const Contacts = () => {
       <div className="contacts__title">КОНТАКТЫ</div>
       <div className="contacts__content">
         <div className="contacts__content__item">
-          <div className="content__item__image">
+          <div className="content__item__image"  data-aos="fade"
+     data-aos-duration="1500">
             <img src={BG} alt="man" />
           </div>
           <div className="content__item__title">
@@ -29,7 +30,8 @@ export const Contacts = () => {
           </div>
         </div>
         <div className="contacts__content__item">
-          <div className="content__item__image">
+          <div className="content__item__image"  data-aos="fade"
+     data-aos-duration="2500" data-aos-delay="200">
             <img src={BG} alt="man" />
           </div>
           <div className="content__item__title">

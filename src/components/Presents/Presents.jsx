@@ -10,9 +10,12 @@ export const Presents = () => {
         <img src={BG} alt="presents img" className="presents__image-bg" />
       </div>
       <div className="presents__content">
-        <span className="presents__content-title">ПОДАРКИ</span>
-        <span className="presents__content-subtitle">ПОДАРКИ</span>
-        <p className="presents__content-text">
+        <span className="presents__content-title"  data-aos="fade-up"
+     data-aos-duration="1000">ПОДАРКИ</span>
+        <span className="presents__content-subtitle"  data-aos="fade-up"
+     data-aos-duration="2000">ПОДАРКИ</span>
+        <p className="presents__content-text"  data-aos="fade"
+     data-aos-duration="3000" data-aos-delay="200">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut
           est, ducimus illum temporibus, dicta excepturi officiis repellat illo
           harum rem fugiat quam saepe. Expedita explicabo vel ratione iure

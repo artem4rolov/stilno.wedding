@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import "./Timer.css";
+import "./Timeout.css";
 
 export const Timeout = () => {
   const [timeLeft, setTimeLeft] = useState(calculateRemainingTime());
@@ -58,7 +58,7 @@ export const Timeout = () => {
   return (
     <div className="timerComponent">
       <h1 className="eventName">До мероприятия осталось:</h1>
-      {timerComponents.length ? timerComponents : <span>00:00:00</span>}
+      <div className="timer">{timerComponents.length ? timerComponents : <span>00:00:00</span>}</div>
     </div>
   );
 };

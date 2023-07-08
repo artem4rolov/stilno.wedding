@@ -9,8 +9,10 @@ export const DressCode = () => {
       <div className="dresscode__bg">
         <div className="dresscode__modal">
           <div className="modal__content">
-            <span className="modal__title">ДРЕСС-КОД</span>
-            <p className="modal__text">
+            <span className="modal__title"  data-aos="fade-down"
+     data-aos-duration="1500">ДРЕСС-КОД</span>
+            <p className="modal__text"  data-aos="fade"
+     data-aos-duration="2000">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
               optio sit ullam facilis eius dolore animi exercitationem, placeat,
               delectus alias, id quae. Exercitationem aliquid amet facere porro
@@ -30,7 +32,8 @@ export const DressCode = () => {
             </p>
           </div>
         </div>
-        <img src={BG} alt="" />
+        <img src={BG} alt=""  data-aos="fade"
+     data-aos-duration="3000" />
       </div>
     </div>
   );

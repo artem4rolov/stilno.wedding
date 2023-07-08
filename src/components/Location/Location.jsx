@@ -6,10 +6,12 @@ import "./Location.css";
 export const Location = () => {
   return (
     <div className="location">
-      <div className="location__image">
+      <div className="location__image" data-aos="zoom-in"
+     data-aos-duration="1000">
         <img src={BG} alt="location img" className="location__image-bg" />
       </div>
-      <div className="location__content">
+      <div className="location__content" data-aos="zoom-in"
+     data-aos-duration="1500">
         <span className="location__content-title">МЕСТО</span>
         <span className="location__content-subtitle">The ШАТЕР</span>
         <p className="location__content-text">
@@ -30,7 +32,8 @@ export const Location = () => {
           earum illum numquam in et ipsum, ut beatae quae ex eos blanditiis!
         </p>
       </div>
-      <div className="location__button">
+      <div className="location__button"  data-aos="fade"
+     data-aos-duration="2500">
         <button>Открыть карту</button>
       </div>
     </div>

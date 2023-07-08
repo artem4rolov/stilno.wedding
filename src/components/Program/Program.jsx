@@ -10,10 +10,13 @@ export const Program = () => {
       <BgWithGradient background={BG} gradient={"down"} />
       <div className="program__content">
         {/* заголовок и время */}
-        <div className="content__title">ПРОГРАММА СВАДЬБЫ</div>
-        <div className="content__subtitle">23 сентября, суббота</div>
+        <div className="content__title"  data-aos="fade-up"
+     data-aos-duration="1000">ПРОГРАММА СВАДЬБЫ</div>
+        <div className="content__subtitle"  data-aos="fade-up"
+     data-aos-duration="1500">23 сентября, суббота</div>
         {/* этапы по времени */}
-        <div className="content__item">
+        <div className="content__item"  data-aos="fade"
+     data-aos-duration="2000">
           <span className="content__item-time">16:30 - 17:00</span>
           <p className="content__item-title">Сбор гостей</p>
           <p className="content__item-desc">
@@ -23,7 +26,8 @@ export const Program = () => {
             perferendis fugit tenetur.
           </p>
         </div>
-        <div className="content__item">
+        <div className="content__item"   data-aos="fade"
+     data-aos-duration="2000">
           <span className="content__item-time">16:30 - 17:00</span>
           <p className="content__item-title">Сбор гостей</p>
           <p className="content__item-desc">
@@ -33,7 +37,8 @@ export const Program = () => {
             perferendis fugit tenetur.
           </p>
         </div>
-        <div className="content__item">
+        <div className="content__item"   data-aos="fade"
+     data-aos-duration="2000">
           <span className="content__item-time">16:30 - 17:00</span>
           <p className="content__item-title">Сбор гостей</p>
           <p className="content__item-desc">

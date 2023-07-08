@@ -7,7 +7,8 @@ export const InfoBlock = () => {
   return (
     <div className="infoblock">
       {/* текст */}
-      <div className="infoblock__text">
+      <div className="infoblock__text"  data-aos="fade-up"
+     data-aos-duration="2500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eligendi
         quisquam, cupiditate, sunt error eius pariatur delectus voluptatibus
         minima beatae commodi sit doloribus a repellendus mollitia vitae
@@ -22,30 +23,36 @@ export const InfoBlock = () => {
         earum consectetur hic mollitia labore.
       </div>
       {/* основные моменты */}
-      <div className="infoblock__item">
+      <div className="infoblock__item" data-aos="zoom-in"
+     data-aos-duration="2000">
         <span className="infoblock__item-title">КТО</span>
         <p className="infoblock__item-desc-bold">самые дорогие</p>
         <p className="infoblock__item-desc">друзья и близкие</p>
       </div>
-      <div className="infoblock__item">
+      <div className="infoblock__item"  data-aos="zoom-in"
+     data-aos-duration="2000">
         <span className="infoblock__item-title">ГДЕ</span>
         <p className="infoblock__item-desc-bold">The ШАТЕР</p>
         <p className="infoblock__item-desc">(адрес)</p>
       </div>
-      <div className="infoblock__item">
+      <div className="infoblock__item"  data-aos="zoom-in"
+     data-aos-duration="2000">
         <span className="infoblock__item-title">КОГДА</span>
         <p className="infoblock__item-desc-bold">23 сентября 2023</p>
         <p className="infoblock__item-desc">суббота</p>
       </div>
       {/* галерея */}
       <div className="infoblock__gallery">
-        <div className="gallery__item">
+        <div className="gallery__item" data-aos="zoom-in-left"
+     data-aos-duration="500">
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
-        <div className="gallery__item">
+        <div className="gallery__item" data-aos="zoom-in"
+     data-aos-duration="1000">
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
-        <div className="gallery__item">
+        <div className="gallery__item" data-aos="zoom-in-right"
+     data-aos-duration="1500">
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
       </div>
