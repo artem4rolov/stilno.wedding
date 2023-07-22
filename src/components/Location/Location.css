@@ -89,17 +89,13 @@
   color: black;
 }
 
-.location__button button:active {
-  background: black;
-  color: white;
-}
-
 button:hover {
+  border: 1px solid transparent;
   background: rgb(97, 97, 97);
   color: white;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }

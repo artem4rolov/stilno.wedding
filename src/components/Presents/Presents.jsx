@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../../assets/img/1.jpg";
+import BG from "../../assets/img/14.jpg";
 import "./Presents.css";
 
 export const Presents = () => {
@@ -42,7 +42,7 @@ export const Presents = () => {
           data-aos-delay="200"
         >
           Дорогие гости, не ломайте голову над подарками! Ваши конверты помогут
-          нам достичь своих целей и осуществить желания
+          нам достичь своих целей и осуществить желания.
         </p>
         <span
           className="presents__content-title"

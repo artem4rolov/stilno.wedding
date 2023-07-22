@@ -50,3 +50,7 @@
 .modal__title {
   font-weight: bold;
 }
+
+.modal__text {
+  text-align: justify;
+}

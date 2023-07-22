@@ -19,7 +19,6 @@
   font-size: 18px;
   font-weight: lighter;
   padding-left: 15px;
-  margin-bottom: 40px;
 
   border-left: 2px solid #ccca6f;
 }
@@ -62,57 +61,4 @@
 
   border-bottom: 2px solid #ccca6f;
   padding-bottom: 30px;
-}
-
-/* галерея */
-.infoblock__gallery {
-  margin: 40px 0;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  max-width: 800px;
-}
-
-.gallery__item {
-  max-width: 250px;
-  height: 500px;
-  object-fit: cover;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  overflow: hidden;
-}
-
-.gallery__item-bg {
-  height: 100%;
-}
-
-@media (max-width: 840px) {
-  .infoblock__gallery {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 800px;
-    gap: 40px;
-  }
-
-  .gallery__item {
-    /* width: 250px; */
-    max-width: 100%;
-    height: 500px;
-    object-fit: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    overflow: hidden;
-  }
 }

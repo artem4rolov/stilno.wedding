@@ -6,14 +6,15 @@ import {
   Program,
   Location,
   DressCode,
-  Gallery,
+  GallerySecond,
   Presents,
   Contacts,
   Timeout,
+  GalleryFirst,
 } from "./components/index";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 
@@ -22,9 +23,10 @@ function App() {
     <div className="App">
       <Main />
       <InfoBlock />
+      <GalleryFirst />
       <Program />
       <Location />
-      <Gallery />
+      <GallerySecond />
       <DressCode />
       <DressCodeColors />
       <Presents />

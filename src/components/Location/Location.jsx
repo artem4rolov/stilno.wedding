@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../../assets/img/1.jpg";
+import BG from "../../assets/img/7.jpg";
 import "./Location.css";
 
 export const Location = () => {
@@ -38,11 +38,9 @@ export const Location = () => {
         data-aos="fade"
         data-aos-duration="2500"
       >
-        <button>
-          <a href="https://yandex.ru/maps/-/CPH4jms" target="norefferer">
-            Открыть карту
-          </a>
-        </button>
+        <a href="https://yandex.ru/maps/-/CPH4jms" target="norefferer">
+          <button>Открыть карту</button>
+        </a>
       </div>
     </div>
   );
