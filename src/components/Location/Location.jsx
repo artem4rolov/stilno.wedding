@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../../assets/img/7.jpg";
+// import BG from "../../assets/img/7.jpg";
 import "./Location.css";
 
 export const Location = () => {
@@ -11,7 +11,11 @@ export const Location = () => {
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
-        <img src={BG} alt="location img" className="location__image-bg" />
+        <img
+          src="https://i.ibb.co/hZTn94N/7.jpg"
+          alt="location img"
+          className="location__image-bg"
+        />
       </div>
       <div
         className="location__content"

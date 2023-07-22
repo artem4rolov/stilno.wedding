@@ -1,7 +1,7 @@
 import React from "react";
 
-import BG1 from "../../assets/img/15.jpg";
-import BG2 from "../../assets/img/16.jpg";
+// import BG1 from "../../assets/img/15.jpg";
+// import BG2 from "../../assets/img/16.jpg";
 import "./Contacts.css";
 
 export const Contacts = () => {
@@ -15,7 +15,7 @@ export const Contacts = () => {
             data-aos="fade"
             data-aos-duration="1500"
           >
-            <img src={BG1} alt="man" />
+            <img src="https://i.ibb.co/2YFnC8F/15.jpg" alt="man" />
           </div>
           <div className="content__item__title">
             <span>Артем</span>
@@ -40,7 +40,7 @@ export const Contacts = () => {
             data-aos-duration="2500"
             data-aos-delay="200"
           >
-            <img src={BG2} alt="man" />
+            <img src="https://i.ibb.co/h9k8jfG/16.jpg" alt="man" />
           </div>
           <div className="content__item__title">
             <span>Дарья</span>

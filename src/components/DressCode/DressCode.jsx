@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../../assets/img/1.jpg";
+// import BG from "../../assets/img/1.jpg";
 import "./DressCode.css";
 
 export const DressCode = () => {
@@ -34,7 +34,12 @@ export const DressCode = () => {
             </p>
           </div>
         </div>
-        <img src={BG} alt="" data-aos="fade" data-aos-duration="3000" />
+        <img
+          src="https://i.ibb.co/njcW3CG/1.jpg"
+          alt=""
+          data-aos="fade"
+          data-aos-duration="3000"
+        />
       </div>
     </div>
   );

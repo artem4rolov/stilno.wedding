@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../../assets/img/1.jpg";
+// import BG from "../../assets/img/1.jpg";
 import "./Main.css";
 
 export const Main = () => {
@@ -8,7 +8,7 @@ export const Main = () => {
     <div className="main">
       <div className="main__shadow" />
       <img
-        src={BG}
+        src="https://i.ibb.co/njcW3CG/1.jpg"
         className="main__cover"
         alt="main cover"
         data-aos="fade"

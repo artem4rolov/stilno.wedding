@@ -1,14 +1,17 @@
 import React from "react";
 
-import BG1 from "../../assets/img/5.jpg";
-import BG2 from "../../assets/img/6.jpg";
+// // import BG1 from "../../assets/img/5.jpg";
+// import BG2 from "../../assets/img/6.jpg";
 import "./Program.css";
 import { BgWithGradient } from "../BgWithGradient/BgWithGradient";
 
 export const Program = () => {
   return (
     <div className="program">
-      <BgWithGradient background={BG1} gradient={"down"} />
+      <BgWithGradient
+        background="https://i.ibb.co/rdzSWFj/5.jpg"
+        gradient={"down"}
+      />
       <div className="program__content">
         {/* заголовок и время */}
         <div
@@ -45,7 +48,10 @@ export const Program = () => {
           </p>
         </div>
       </div>
-      <BgWithGradient background={BG2} gradient={"up"} />
+      <BgWithGradient
+        background="https://i.ibb.co/5691Gxv/6.jpg"
+        gradient={"up"}
+      />
     </div>
   );
 };

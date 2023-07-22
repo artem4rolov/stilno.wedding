@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Timeout.css";
 
-import BG1 from "../../assets/img/17.jpg";
+// import BG1 from "../../assets/img/17.jpg";
 import { BgWithGradient } from "../BgWithGradient/BgWithGradient";
 
 export const Timeout = () => {
@@ -80,7 +80,10 @@ export const Timeout = () => {
           {timerComponents.length ? timerComponents : <span>00:00:00</span>}
         </div>
       </div>
-      <BgWithGradient background={BG1} gradient={"up"} />
+      <BgWithGradient
+        background="https://i.ibb.co/0ZJTMzK/17.jpg"
+        gradient={"up"}
+      />
     </>
   );
 };
