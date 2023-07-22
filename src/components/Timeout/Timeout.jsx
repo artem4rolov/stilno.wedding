@@ -1,8 +1,26 @@
 import React, { useEffect, useState } from "react";
 import "./Timeout.css";
 
+import BG1 from "../../assets/img/17.jpg";
+import { BgWithGradient } from "../BgWithGradient/BgWithGradient";
+
 export const Timeout = () => {
   const [timeLeft, setTimeLeft] = useState(calculateRemainingTime());
+
+  function rename(str) {
+    switch (str) {
+      case "days":
+        return "Дней";
+      case "hours":
+        return "Часов";
+      case "minutes":
+        return "Минут";
+      case "seconds":
+        return "Секунд";
+      default:
+        return;
+    }
+  }
 
   // to update the time every 1 second
   useEffect(() => {
@@ -23,7 +41,7 @@ export const Timeout = () => {
     // console.log(interval);
     timerComponents.push(
       <span className={interval}>
-        {timeLeft[interval]} {interval}{" "}
+        {timeLeft[interval]} <p className="timer-subtext">{rename(interval)}</p>{" "}
       </span>
     );
   });
@@ -55,11 +73,14 @@ export const Timeout = () => {
   }
 
   return (
-    <div className="timerComponent">
-      <h1 className="eventName">До свадьбы осталось:</h1>
-      <div className="timer">
-        {timerComponents.length ? timerComponents : <span>00:00:00</span>}
+    <>
+      <div className="timerComponent">
+        <div className="eventName">До свадьбы осталось:</div>
+        <div className="timer">
+          {timerComponents.length ? timerComponents : <span>00:00:00</span>}
+        </div>
       </div>
-    </div>
+      <BgWithGradient background={BG1} gradient={"up"} />
+    </>
   );
 };
