@@ -6,35 +6,43 @@ import "./Location.css";
 export const Location = () => {
   return (
     <div className="location">
-      <div className="location__image" data-aos="zoom-in"
-     data-aos-duration="1000">
+      <div
+        className="location__image"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <img src={BG} alt="location img" className="location__image-bg" />
       </div>
-      <div className="location__content" data-aos="zoom-in"
-     data-aos-duration="1500">
+      <div
+        className="location__content"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      >
         <span className="location__content-title">МЕСТО</span>
         <span className="location__content-subtitle">The ШАТЕР</span>
         <p className="location__content-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut
-          est, ducimus illum temporibus, dicta excepturi officiis repellat illo
-          harum rem fugiat quam saepe. Expedita explicabo vel ratione iure
-          similique.
+          Место проведения – белоснежная шатровая площадка на территории
+          Стрелкового комплекса «Профессионал»
           <br />
           <br />
-          Temporibus culpa perspiciatis explicabo, at dolor nihil consequatur a
-          possimus nam delectus! Quas vel aliquid necessitatibus earum molestiae
-          perspiciatis nam quasi deserunt explicabo, corporis quaerat dicta
-          laborum repellat iure! Harum.
+          Адрес: Волгоградская область, город Волгоград, улица им. Землячки, дом
+          92
           <br />
           <br />
-          Quisquam voluptatibus earum dignissimos nam, cumque alias deleniti
-          laborum culpa natus totam quasi molestiae? Accusantium tenetur vero at
-          earum illum numquam in et ipsum, ut beatae quae ex eos blanditiis!
+          При въезде на территорию комплекса необходимо сказать, что Вы гости
+          свадьбы, которая проводится в шатре.
         </p>
       </div>
-      <div className="location__button"  data-aos="fade"
-     data-aos-duration="2500">
-        <button>Открыть карту</button>
+      <div
+        className="location__button"
+        data-aos="fade"
+        data-aos-duration="2500"
+      >
+        <button>
+          <a href="https://yandex.ru/maps/-/CPH4jms" target="norefferer">
+            Открыть карту
+          </a>
+        </button>
       </div>
     </div>
   );

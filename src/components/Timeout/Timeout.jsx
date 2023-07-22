@@ -54,11 +54,12 @@ export const Timeout = () => {
     return timeRemaining;
   }
 
-  // rendering the final UI
   return (
     <div className="timerComponent">
-      <h1 className="eventName">До мероприятия осталось:</h1>
-      <div className="timer">{timerComponents.length ? timerComponents : <span>00:00:00</span>}</div>
+      <h1 className="eventName">До свадьбы осталось:</h1>
+      <div className="timer">
+        {timerComponents.length ? timerComponents : <span>00:00:00</span>}
+      </div>
     </div>
   );
 };

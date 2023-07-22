@@ -9,31 +9,32 @@ export const DressCode = () => {
       <div className="dresscode__bg">
         <div className="dresscode__modal">
           <div className="modal__content">
-            <span className="modal__title"  data-aos="fade-down"
-     data-aos-duration="1500">ДРЕСС-КОД</span>
-            <p className="modal__text"  data-aos="fade"
-     data-aos-duration="2000">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-              optio sit ullam facilis eius dolore animi exercitationem, placeat,
-              delectus alias, id quae. Exercitationem aliquid amet facere porro
-              suscipit quia cupiditate!
+            <span
+              className="modal__title"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              ДРЕСС-КОД
+            </span>
+            <p className="modal__text" data-aos="fade" data-aos-duration="2000">
+              Мы очень старались, чтобы наше событие стало красивым и стильным
+              праздником и будем очень благодарны, если в своих нарядах Вы
+              поддержите цветовую гамму нашей свадьбы. Ниже мы прикрепляем для
+              Вас палитру дресс-кода, Вы можете выбрать для себя как моно-образ,
+              так и образ в сочетании нескольких оттенков по Вашим
+              предпочтениям.
               <br />
               <br />
-              Ex, aut qui. Amet doloremque consequatur voluptatibus sit
-              voluptatum delectus, aspernatur repellat corrupti rem eligendi,
-              cum saepe esse debitis optio! Dicta deleniti quidem quos eum
-              temporibus eos modi molestias consectetur!
+              Для мужчин допустим классический черный костюм с белой
+              рубашкой/футболкой.
               <br />
               <br />
-              Cupiditate, reiciendis eos! Cum possimus repellat dolor enim.
-              Voluptatum aliquam eligendi totam saepe. Explicabo nemo nobis,
-              quisquam aliquam, ipsa nisi inventore numquam libero quas repellat
-              vero quis quo eveniet quod.
+              Дорогие гости, убедительно просим Вас избегать ярких цветов в
+              Ваших образах.
             </p>
           </div>
         </div>
-        <img src={BG} alt=""  data-aos="fade"
-     data-aos-duration="3000" />
+        <img src={BG} alt="" data-aos="fade" data-aos-duration="3000" />
       </div>
     </div>
   );

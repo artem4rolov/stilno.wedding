@@ -7,52 +7,40 @@ export const InfoBlock = () => {
   return (
     <div className="infoblock">
       {/* текст */}
-      <div className="infoblock__text"  data-aos="fade-up"
-     data-aos-duration="2500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eligendi
-        quisquam, cupiditate, sunt error eius pariatur delectus voluptatibus
-        minima beatae commodi sit doloribus a repellendus mollitia vitae
-        officia, laudantium libero! Deleniti voluptatibus ab eaque beatae
-        placeat tenetur quis, dicta quidem rerum vel ipsum ea labore, quo vitae
-        ipsa incidunt iste!
+      <div
+        className="infoblock__text"
+        data-aos="fade-up"
+        data-aos-duration="2500"
+      >
+        Дорогие родственники и друзья, мы с удовольствием приглашаем Вас на наш
+        свадебный вечер! На этом сайте Вы найдете всю необходимую подробную
+        информацию о нашем событии, а также наши искренние пожелания для Вас.
         <br />
         <br />
-        Repellendus esse laudantium veritatis laboriosam deserunt error quam,
-        tenetur fugit? Reiciendis dolore a, cupiditate ad illo suscipit voluptas
-        non quos necessitatibus delectus totam odio eveniet fuga est voluptate
-        earum consectetur hic mollitia labore.
-      </div>
-      {/* основные моменты */}
-      <div className="infoblock__item" data-aos="zoom-in"
-     data-aos-duration="2000">
-        <span className="infoblock__item-title">КТО</span>
-        <p className="infoblock__item-desc-bold">самые дорогие</p>
-        <p className="infoblock__item-desc">друзья и близкие</p>
-      </div>
-      <div className="infoblock__item"  data-aos="zoom-in"
-     data-aos-duration="2000">
-        <span className="infoblock__item-title">ГДЕ</span>
-        <p className="infoblock__item-desc-bold">The ШАТЕР</p>
-        <p className="infoblock__item-desc">(адрес)</p>
-      </div>
-      <div className="infoblock__item"  data-aos="zoom-in"
-     data-aos-duration="2000">
-        <span className="infoblock__item-title">КОГДА</span>
-        <p className="infoblock__item-desc-bold">23 сентября 2023</p>
-        <p className="infoblock__item-desc">суббота</p>
+        Мы будем счастливы разделить этот день с самыми близкими людьми, с
+        нетерпением ждем Вас на нашей свадьбе!
       </div>
       {/* галерея */}
       <div className="infoblock__gallery">
-        <div className="gallery__item" data-aos="zoom-in-left"
-     data-aos-duration="500">
+        <div
+          className="gallery__item"
+          data-aos="zoom-in-left"
+          data-aos-duration="500"
+        >
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
-        <div className="gallery__item" data-aos="zoom-in"
-     data-aos-duration="1000">
+        <div
+          className="gallery__item"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
-        <div className="gallery__item" data-aos="zoom-in-right"
-     data-aos-duration="1500">
+        <div
+          className="gallery__item"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           <img src={BG} alt="gallery item" className="gallery__item-bg" />
         </div>
       </div>

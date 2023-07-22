@@ -66,6 +66,10 @@
   border-bottom: 1px solid #000;
 }
 
+.location__content-text {
+  text-align: justify;
+}
+
 /* кнопка открыть карту */
 .location__button {
   width: 90%;
@@ -92,5 +96,10 @@
 
 button:hover {
   background: rgb(97, 97, 97);
+  color: white;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }

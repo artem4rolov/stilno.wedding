@@ -10,27 +10,77 @@ export const Presents = () => {
         <img src={BG} alt="presents img" className="presents__image-bg" />
       </div>
       <div className="presents__content">
-        <span className="presents__content-title"  data-aos="fade-up"
-     data-aos-duration="1000">ПОДАРКИ</span>
-        <span className="presents__content-subtitle"  data-aos="fade-up"
-     data-aos-duration="2000">ПОДАРКИ</span>
-        <p className="presents__content-text"  data-aos="fade"
-     data-aos-duration="3000" data-aos-delay="200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut
-          est, ducimus illum temporibus, dicta excepturi officiis repellat illo
-          harum rem fugiat quam saepe. Expedita explicabo vel ratione iure
-          similique.
+        <p
+          className="presents__content-text"
+          data-aos="fade"
+          data-aos-duration="3000"
+          data-aos-delay="200"
+        >
+          Дорогие родственники, друзья и коллеги, наше торжество носит
+          современный европейский характер, при подготовке мероприятия мы
+          полностью воздержались от классических традиций – на нем не будет
+          выкупа, каравая, продажи торта и собираний на младенцев.
           <br />
           <br />
-          Temporibus culpa perspiciatis explicabo, at dolor nihil consequatur a
-          possimus nam delectus! Quas vel aliquid necessitatibus earum molestiae
-          perspiciatis nam quasi deserunt explicabo, corporis quaerat dicta
-          laborum repellat iure! Harum.
+          Будьте спокойны, что Вас не ожидают дополнительные траты.
           <br />
           <br />
-          Quisquam voluptatibus earum dignissimos nam, cumque alias deleniti
-          laborum culpa natus totam quasi molestiae? Accusantium tenetur vero at
-          earum illum numquam in et ipsum, ut beatae quae ex eos blanditiis!
+          Пожелания для гостей:
+        </p>
+
+        <span
+          className="presents__content-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          ПОДАРКИ
+        </span>
+        <p
+          className="presents__content-text"
+          data-aos="fade"
+          data-aos-duration="3000"
+          data-aos-delay="200"
+        >
+          Дорогие гости, не ломайте голову над подарками! Ваши конверты помогут
+          нам достичь своих целей и осуществить желания
+        </p>
+        <span
+          className="presents__content-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          ПОЗДРАВЛЕНИЯ
+        </span>
+        <p
+          className="presents__content-text"
+          data-aos="fade"
+          data-aos-duration="3000"
+          data-aos-delay="200"
+        >
+          На нашем празднике не будет обязательных поздравлений в микрофон и
+          публичного дарения подарков. Вы можете сказать все теплые слова нам
+          лично. А если Вы захотите произнести тост – сообщите ведущему, и он
+          обязательно даст Вам слово в формате свободного микрофона.
+          <br />
+          <br />
+          Мы будем благодарны, если Вы воздержитесь от криков «Горько!» на
+          празднике.
+        </p>
+        <span
+          className="presents__content-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          ЦВЕТЫ
+        </span>
+        <p
+          className="presents__content-text"
+          data-aos="fade"
+          data-aos-duration="3000"
+          data-aos-delay="200"
+        >
+          Очень просим Вас не дарить нам цветы и избавить себя от дополнительных
+          расходов, т.к. мы не успеем насладиться их красотой до отъезда.
         </p>
       </div>
     </div>
