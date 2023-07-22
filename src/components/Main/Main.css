@@ -45,12 +45,14 @@
 
 .main__subtitle {
   font-size: 24px;
-  opacity: 0.8;
+  font-weight: 100;
+  opacity: 0.5;
 }
 
 /* центральная подпись */
 
 .main__title {
+  font-family: "Noto Serif Display";
   font-size: 30px;
   font-weight: bold;
   color: #ccca6f;
