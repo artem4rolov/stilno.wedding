@@ -49,9 +49,9 @@
 
 @media (max-width: 480px) {
   .gallery__photo-main {
-    max-height: 500px;
+    max-height: 400px;
   }
   .gallery__photo-sub {
-    max-height: 500px;
+    max-height: 400px;
   }
 }
