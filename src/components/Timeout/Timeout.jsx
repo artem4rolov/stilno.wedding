@@ -46,8 +46,6 @@ export const Timeout = () => {
     );
   });
 
-  console.log(timeLeft);
-
   /* main function for calculating the time remaining
    * from the current date */
   function calculateRemainingTime() {
