@@ -45,7 +45,7 @@ export const Contacts = () => {
             <br />
             <div className="socials">
               <a
-                href="https://wa.me/89954180985"
+                href="https://wa.clck.bar/79954180985"
                 className="socials--button"
                 target="norefferer"
               >
@@ -87,7 +87,7 @@ export const Contacts = () => {
             <br />
             <div className="socials">
               <a
-                href="https://wa.me/89884925024"
+                href="https://wa.clck.bar/79884925024"
                 className="socials--button"
                 target="norefferer"
               >
