@@ -46,3 +46,12 @@
 
   overflow: hidden;
 }
+
+@media (max-width: 480px) {
+  .gallery__photo-main {
+    max-height: 500px;
+  }
+  .gallery__photo-sub {
+    max-height: 500px;
+  }
+}
