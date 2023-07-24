@@ -46,7 +46,11 @@ export const Timeout = () => {
       timeLeft[interval] == null ||
       timeLeft[interval] === undefined
     ) {
-      return 0;
+      return timerComponents.push(
+        <span className={interval}>
+          {0} <p className="timer-subtext">{rename(interval)}</p>{" "}
+        </span>
+      );
     }
 
     timerComponents.push(
