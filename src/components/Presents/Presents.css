@@ -84,7 +84,7 @@
   }
 
   .presents__image img {
-    max-width: 800px;
+    min-width: 400px;
     /* width: fit-content; */
     height: fit-content;
     background-position-x: left;

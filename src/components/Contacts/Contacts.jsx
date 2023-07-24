@@ -26,7 +26,7 @@ export const Contacts = () => {
             data-aos="fade"
             data-aos-duration="1500"
           >
-            <img src="https://i.ibb.co/2YFnC8F/15.jpg" alt="man" />
+            <img src="https://i.ibb.co/0DQMtnv/IMG-0355.jpg" alt="man" />
           </div>
           <div className="content__item__title">
             <span>Артем</span>
@@ -34,7 +34,7 @@ export const Contacts = () => {
           <div className="content__item__desc"></div>
           <div className="content__item__contact">
             <span onClick={(e) => copyNumber(e)} className="contact__phone">
-              +7-995-418-09-85
+              +7(995)418-09-85
             </span>
             <br />
             <br />
@@ -76,7 +76,7 @@ export const Contacts = () => {
           <div className="content__item__desc"></div>
           <div className="content__item__contact">
             <span className="contact__phone" onClick={(e) => copyNumber(e)}>
-              +7-988-492-50-24
+              +7(988)492-50-24
             </span>
             <br />
             <br />
