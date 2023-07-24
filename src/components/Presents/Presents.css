@@ -23,7 +23,8 @@
 /* фотка */
 .presents__image img {
   width: 100%;
-  max-width: 800px;
+  /* max-width: fit-content; */
+  min-width: 800px;
   background-position: center;
   background-size: cover;
   margin-bottom: 20px;
@@ -75,4 +76,17 @@
   text-align: justify;
   padding-left: 15px;
   border-left: 2px solid #969559;
+}
+
+@media (max-width: 800px) {
+  .presents {
+    overflow: hidden;
+  }
+
+  .presents__image img {
+    max-width: 800px;
+    /* width: fit-content; */
+    height: fit-content;
+    background-position-x: left;
+  }
 }
