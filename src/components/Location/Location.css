@@ -52,14 +52,14 @@
 .location__content-title {
   width: 100%;
   text-align: left;
-  font-weight: bold;
+  font-weight: light;
   margin-bottom: 10px;
 }
 
 .location__content-subtitle {
   width: 100%;
   text-align: left;
-  font-weight: bold;
+  font-weight: light;
 
   padding-bottom: 10px;
 

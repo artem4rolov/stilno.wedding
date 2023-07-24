@@ -22,6 +22,12 @@ export const Timeout = () => {
     }
   }
 
+  function addZero(num) {
+    if (num === 0) {
+      return `0${num}`;
+    } else return num;
+  }
+
   // to update the time every 1 second
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -35,16 +41,27 @@ export const Timeout = () => {
   /* traverse through the timeLeft Object
    * for making the timer UI component */
   Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
+    if (
+      !timeLeft[interval] ||
+      timeLeft[interval] == null ||
+      timeLeft[interval] === undefined
+    ) {
+      return (
+        <span className={interval}>
+          {0} <p className="timer-subtext">{rename(interval)}</p>{" "}
+        </span>
+      );
     }
-    // console.log(interval);
+
     timerComponents.push(
       <span className={interval}>
-        {timeLeft[interval]} <p className="timer-subtext">{rename(interval)}</p>{" "}
+        {timeLeft[interval] < 1 ? 0 : timeLeft[interval]}{" "}
+        <p className="timer-subtext">{rename(interval)}</p>{" "}
       </span>
     );
   });
+
+  console.log(timeLeft);
 
   /* main function for calculating the time remaining
    * from the current date */
