@@ -82,11 +82,4 @@
   .presents {
     overflow: hidden;
   }
-
-  .presents__image img {
-    max-width: 800px;
-    /* width: fit-content; */
-    height: fit-content;
-    background-position-x: left;
-  }
 }
