@@ -21,11 +21,10 @@
 
 /* фотка */
 .presents__image img {
-  width: 100%;
   /* max-width: fit-content; */
   min-width: 800px;
   background-position: center;
-  background-size: cover;
+  object-fit: contain;
   margin-bottom: 20px;
 
   display: flex;
@@ -78,6 +77,9 @@
 }
 
 @media (max-width: 800px) {
+  .presents__image img {
+    max-height: 700px;
+  }
   .presents {
     overflow: hidden;
   }
