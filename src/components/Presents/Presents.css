@@ -12,9 +12,8 @@
 
 .presents__content {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
-  align-items: center;
   overflow: hidden;
 
   max-width: 800px;
@@ -45,7 +44,7 @@
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: start;
   text-align: left;
 }

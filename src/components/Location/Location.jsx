@@ -12,7 +12,7 @@ export const Location = () => {
         data-aos-duration="1000"
       >
         <img
-          src="https://i.ibb.co/hZTn94N/7.jpg"
+          src="https://i.ibb.co/d0zYhpc/IMG-0389.jpg"
           alt="location img"
           className="location__image-bg"
         />

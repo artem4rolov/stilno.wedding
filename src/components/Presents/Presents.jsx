@@ -8,7 +8,7 @@ export const Presents = () => {
     <div className="presents">
       <div className="presents__image">
         <img
-          src="https://i.ibb.co/qD8YXZp/14.jpg"
+          src="https://i.ibb.co/RCYwcVH/IMG-0391.jpg"
           alt="presents img"
           className="presents__image-bg"
         />
@@ -44,16 +44,16 @@ export const Presents = () => {
           className="presents__content-text"
           data-aos="fade"
           data-aos-duration="3000"
-          data-aos-delay="200"
+          data-aos-delay="100"
         >
-          Дорогие гости, не ломайте голову над подарками! Ваши конверты помогут
-          осуществить наши желания.
+          Не ломайте голову над подарками! Ваши конверты помогут осуществить
+          наши желания.
         </p>
         <span
           className="presents__content-title"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="300"
+          data-aos-delay="100"
         >
           ПОЗДРАВЛЕНИЯ
         </span>
@@ -61,7 +61,7 @@ export const Presents = () => {
           className="presents__content-text"
           data-aos="fade"
           data-aos-duration="3000"
-          data-aos-delay="400"
+          data-aos-delay="100"
         >
           На нашем празднике не будет обязательных поздравлений в микрофон и
           публичного дарения подарков. Вы можете сказать все теплые слова нам
@@ -76,15 +76,15 @@ export const Presents = () => {
           className="presents__content-title"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-delay="100"
         >
           ЦВЕТЫ
         </span>
         <p
           className="presents__content-text"
           data-aos="fade"
-          data-aos-duration="3000"
-          data-aos-delay="600"
+          data-aos-duration="2000"
+          data-aos-delay="100"
         >
           Очень просим Вас не дарить нам цветы и избавить себя от дополнительных
           расходов, так как мы не успеем насладиться их красотой до отъезда.
